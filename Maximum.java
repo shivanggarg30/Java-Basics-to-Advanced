@@ -18,7 +18,7 @@ public class Maximum {
         if(num3>max){
             max = num3;
         }
-        System.out.println(max + "is the greatest number");
+        System.out.println(max + " is the greatest number");
 
     }
 }
