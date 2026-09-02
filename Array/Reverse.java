@@ -7,7 +7,7 @@ public class Reverse {
         reverse(arr);
         System.out.println(Arrays.toString(arr));
     }
-
+    //2 pointer method
     static void reverse(int[] arr){
        int start = 0;
        int end=arr.length-1;
