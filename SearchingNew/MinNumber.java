@@ -13,7 +13,7 @@ public class MinNumber {
                if(arr[i] < min){
                 min = arr[i];
                }
-            }
+             }
             return min;
     }
 
