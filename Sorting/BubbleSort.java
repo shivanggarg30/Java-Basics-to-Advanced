@@ -12,15 +12,12 @@ public class BubbleSort {
                 arr[i+1]=arr[i];
                 arr[i]=temp;
                 swapped=true;
-
             }
         }
         if(!swapped){
             break;
         }
     }
-
-
         return arr;
     }
     public static void main(String[] args){
