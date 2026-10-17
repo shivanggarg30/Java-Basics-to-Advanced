@@ -3,10 +3,10 @@ package Recursion;
 public class Message {
       
 public static void main(String[] args){
-     message1(1);
+     message1(1); 
 }
 
-  
+  //function calling another function
 static void message1(int n){
 System.out.println(n);
 message2(2);
